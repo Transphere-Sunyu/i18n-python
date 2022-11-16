@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang={{ current_language }} dir={{ current_language == 'ari' and 'rtl' }}>
+<head>
+    <!-- META -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="#">
+    <meta name="description" content="#">
+    <meta name="referrer" content="unsafe-url">
+    <meta name="robots" content="index, follow">
+    <!-- SPEED -->
+    <link rel="preconnect" href="https://res.cloudinary.com">
+    <link rel="dns-prefetch" href="https://res.cloudinary.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="dns-prefetch" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="dns-prefetch" href="https://fonts.gstatic.com">
+    <!-- LINK -->
+    <link rel="me" href="#">
+    <link rel="canonical" href="#">
+    <link rel="icon" type="image/png" href="#" sizes="48x48">
+    <!-- PERFORMANCE -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap">
+    <link rel="preload" as="style" href="../static/style.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="../static/style.css">
+    <!-- TITLE -->
+    <title>i18n</title>
+</head>
+<body >
+<header role="banner" class="ui-section-header">
+    <div class="ui-layout-container">
+        <div class="ui-section-header__layout ui-layout-flex">
+            <!-- LOGO -->
+            <a href="#" role="link" aria-label="#">
+                <svg viewBox="0 0 18 18" height="18" width="18" role="img" aria-label="#">
+                    <path fill="#353535" d="M0 0h4.5v9a4.5 4.5 0 109 0V6H18v3A9 9 0 110 9V0zm18 4.5V0h-4.5v4.5H18z"/>
+                </svg>
+            </a>
+            <!-- MENU -->
+            <div class="dropdown">
+                <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+
+                    {{ current_language }}
+
+                </button>
+                <ul class="dropdown-menu">
+                    {% for language in languages.items() %}
+                        <li><a class="dropdown-item"
+                               href="{{ url_for('index', lang=language[0]) }}">{{ language[1] }}</a></li>
+                    {% endfor %}
+
+                </ul>
+            </div>
+        </div>
+    </div>
+</header>
+<main role="main">
+
+    <section class="ui-section-hero">
+        <div class="ui-layout-container">
+            <div class="ui-layout-column-6 ui-layout-column-center">
+                <!-- LOGO -->
+                <a href="#" role="link" aria-label="#" class="ui-section-hero--logo">
+                    <svg viewBox="0 0 48 48" height="48" width="48">
+                        <rect fill="#353535" height="48" width="48" rx="8"/>
+                        <path fill="#FFF"
+                              d="M12 13h6v12a6 6 0 0012 0v-4h6v4c0 6.627-5.373 12-12 12s-12-5.373-12-12V13zm24 6v-6h-6v6h6z"/>
+                    </svg>
+                </a>
+                <!-- COPYWRITING -->
+                <div class="ui-section-hero--content">
+                    <h1>{{ _('Design better.') }}</h1>
+                    <p class="ui-text-intro">{{ _('Design Mobile UI faster and better with our product and produce professional designs for your business') }}</p>
+                    <!-- CTA -->
+                    <div class="ui-component-cta ui-layout-flex">
+                        <form action="#" class="ui-component-form ui-layout-grid ui-layout-column-4">
+                            <input type="email" placeholder="{{ _("Email") }}"
+                                   class="ui-component-input ui-component-input-medium" required>
+                            <button type="submit"
+                                    class="ui-component-button ui-component-button-medium ui-component-button-primary">
+                                {{ _('Join Waitlist') }}</button>
+                        </form>
+                        <p class="ui-text-note"><small>{{ _('Available on Android and iOS.') }}</small></p>
+                        <p class="ui-text-note"><small>{{ _('Free for 3 months.') }}</small></p>
+
+                    </div>
+                </div>
+                <!-- IMAGE -->
+                <img src="https://res.cloudinary.com/uisual/image/upload/assets/devices/iphones.png" loading="lazy"
+                     alt="#">
+            </div>
+        </div>
+    </section>
+</main>
+<footer role="contentinfo" class="ui-section-footer">
+    <div class="ui-layout-container">
+        <div class="ui-section-footer__layout ui-layout-flex">
+            <!-- COPYRIGHT -->
+            <p class="ui-section-footer--copyright ui-text-note"><small>&copy; 0000 Uisual</small></p>
+            <!-- MENU -->
+            <a href="#" role="link" aria-label="#" class="ui-text-note"><small>{{ _('Features') }}</small></a>
+            <a href="#" role="link" aria-label="#" class="ui-text-note"><small>{{ _('Help') }}</small></a>
+            <a href="#" role="link" aria-label="#" class="ui-text-note"><small>{{ _('Terms') }}</small></a>
+        </div>
+    </div>
+</footer>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+        crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+        crossorigin="anonymous"></script>
+
+</html>

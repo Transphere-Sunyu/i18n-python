@@ -1,0 +1,58 @@
+# Arabic translations for PROJECT.
+# Copyright (C) 2022 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2022-11-15 18:03+0800\n"
+"PO-Revision-Date: 2022-11-15 17:56+0800\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: ar\n"
+"Language-Team: ar <LL@li.org>\n"
+"Plural-Forms: nplurals=6; plural=(n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : "
+"n%100>=3 && n%100<=10 ? 3 : n%100>=0 && n%100<=2 ? 4 : 5);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.3\n"
+
+#: templates/index.html:76
+msgid "Design better."
+msgstr "تصميم أفضل."
+
+#: templates/index.html:77
+msgid ""
+"Design Mobile UI faster and better with our product and produce "
+"professional designs for your business"
+msgstr "تصميم MOBILE UI  بشكل أسرع و افضل مع منتجاتنا و إنتاج تصميمات احترافية لعملك "
+
+#: templates/index.html:81
+msgid "Email"
+msgstr "البريد الإلكتروني"
+
+#: templates/index.html:85
+msgid "Join Waitlist"
+msgstr "انضم إلى قائمة الانتظار"
+
+#: templates/index.html:87
+msgid "Available on Android and iOS."
+msgstr "متوفر على نظامي Android و iOS."
+
+#: templates/index.html:103
+msgid "Features"
+msgstr "سمات"
+
+#: templates/index.html:104
+msgid "Help"
+msgstr "مساعدة"
+
+#: templates/index.html:105
+msgid "Terms"
+msgstr "شروط"
+
+msgid "Free for 3 months."
+msgstr "مجاني لمدة 3 أشهر"
+
