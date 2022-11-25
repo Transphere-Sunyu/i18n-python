@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2022-11-15 18:03+0800\n"
+"POT-Creation-Date: 2022-11-25 14:04+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -39,15 +39,19 @@ msgstr ""
 msgid "Available on Android and iOS."
 msgstr ""
 
-#: templates/index.html:103
-msgid "Features"
-msgstr ""
-
-#: templates/index.html:104
-msgid "Help"
+#: templates/index.html:88
+msgid "Free for 3 months."
 msgstr ""
 
 #: templates/index.html:105
+msgid "Features"
+msgstr ""
+
+#: templates/index.html:106
+msgid "Help"
+msgstr ""
+
+#: templates/index.html:107
 msgid "Terms"
 msgstr ""
 

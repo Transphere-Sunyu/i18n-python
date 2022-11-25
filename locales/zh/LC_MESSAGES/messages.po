@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2022-11-15 18:03+0800\n"
+"POT-Creation-Date: 2022-11-15 14:53+0800\n"
 "PO-Revision-Date: 2022-11-15 15:15+0800\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: zh\n"
@@ -18,34 +18,41 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.10.3\n"
 
+#: templates/index.html:76
+msgid "Design better."
+msgstr "更棒的设计。"
 
- msgid "Design better."
- msgstr "设计得更好。"
+#: templates/index.html:77
+msgid ""
+"Design Mobile UI faster and better with our product and produce "
+"professional designs for your business"
+msgstr ""
+"我们的产品能让您轻松高效地设计移动UI，为您的业务输出专业设计"
 
- msgid ""
- "Design Mobile UI faster and better "
- "with our product and produce "
- "professional designs for your business"
- msgstr "使用我们的产品更快更好地设计移动UI，并为您的业务制作专业设计。"
+#: templates/index.html:81
+msgid "Email"
+msgstr "电子邮件"
 
- msgid "Email"
- msgstr "电子邮件"
+#: templates/index.html:85
+msgid "Join Waitlist"
+msgstr "加入候补名单"
 
- msgid "Join Waitlist"
- msgstr "加入候补名单"
+#: templates/index.html:87
+msgid "Available on Android and iOS."
+msgstr "可在 Android 和 iOS 上使用。"
 
- msgid "Available on Android and iOS."
- msgstr "可在 Android 和 iOS 上使用。"
+#: templates/index.html:88
+msgid "Free for 3 months."
+msgstr "免费使用 3 个月。"
 
- msgid "Free for 3 months."
- msgstr "免费使用 3 个月"
+#: templates/index.html:105
+msgid "Features"
+msgstr "功能"
 
- msgid "Features"
- msgstr "特点"
+#: templates/index.html:106
+msgid "Help"
+msgstr "帮助"
 
- msgid "Help"
- msgstr "帮帮忙"
-
- msgid "Terms"
- msgstr "条款"
-
+#: templates/index.html:107
+msgid "Terms"
+msgstr "条款"
