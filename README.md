@@ -15,10 +15,6 @@ Read our article to understand how internationalization was implemented.
 
      cd i18n-python && pip3 install -r requirements.txt
 
-# Add path to your locales directory
-    
-     app.config["BABEL_TRANSLATION_DIRECTORIES"] = '/Path/To/Your/locales/directory'
-
 
 # Run the web application
     

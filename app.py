@@ -1,5 +1,6 @@
 from flask import Flask, render_template, request, session
 from flask_babel import Babel
+import os
 
 app = Flask(__name__)
 
@@ -14,8 +15,7 @@ app.config['LANGUAGES'] = {
 # TODO: Generate a secret your key
 app.config['SECRET_KEY'] = 'your secret key'
 
-# TODO: Add path to your locales or translation directory
-app.config["BABEL_TRANSLATION_DIRECTORIES"] = '/Path/To/Your/locales'
+app.config["BABEL_TRANSLATION_DIRECTORIES"] = os.path.abspath('locales/')
 
 
 # Make languages and current_languages variables
